@@ -8,7 +8,7 @@
             "name": "Weather API",
             "type": "coreclr",
             "request": "launch",
-            "preLaunchTask": "build",
+            "preLaunchTask": "watch-build",
             "program": "${workspaceFolder}/Api/bin/Debug/net7.0/Api.dll",
             "args": [],
             "cwd": "${workspaceFolder}/Api",
@@ -26,7 +26,7 @@
             }
         },
         {
-            "name": ".NET Core Attach",
+            "name": "Debug",
             "type": "coreclr",
             "request": "attach"
         }
